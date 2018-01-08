@@ -5,9 +5,9 @@
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "target":"es5",
-        "out": "js/main.js"
+        "out": "assets/js/main.js"
     },
     "include" : [
-        "ts/**/*"
+        "assets/ts/**/*"
     ]
 }

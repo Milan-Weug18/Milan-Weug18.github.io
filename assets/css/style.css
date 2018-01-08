@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+
+html, body {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image:url('../resources/asfalt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.instructions {
+    border: 3px solid white;
+    width: 400px;
+    height: 140px;
+    position: absolute;
+    bottom: 0px;
+    background-image: url('../resources/tire.jpg');
+    background-size: cover;
+}
+
+/*----parkingspot----*/
+.parkingSpot {
+    border: 3px solid white;
+    width: 200px;
+    height: 100px;
+    float: right;
+    background-image: url('../resources/asfalt2.jpg');
+}
+
+/*---message----*/
+.message {
+    text-align: center;
+    width: 150px;
+    height: 120px;
+    margin-left: 80px;
+    margin-top: -40px;
+    position: relative;
+    border: 3px solid white;
+    background-image: url('../resources/tire.jpg');
+    background-size: cover;
+}
+
+/*----timer----*/
+.timer {
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+    position: relative;
+    border: 3px solid white;
+    background-image: url('../resources/tire.jpg');
+    background-size: cover;
+}
+
+/*----Cars----*/
+.car1 {
+    width: 150px;
+    height: 75px;
+    background-image: url('../resources/car1.png');
+    background-size: cover;
+}
+
+.car2 {
+    width: 150px;
+    height: 75px;
+    background-image: url('../resources/car2.png');
+    background-size: cover;
+}
+
+.car3 {
+    width: 150px;
+    height: 75px;
+    background-image: url('../resources/car3.png');
+    background-size: cover;
+
+}
+
+.car4 {
+    width: 150px;
+    height: 75px;
+    background-image: url('../resources/car4.png');
+    background-size: cover;
+}
+
+
+
+
+/*----driving----*/
+.driving{
+    transition: width 1s, height 1s, background-color 1s, transform 2s;  
+}
